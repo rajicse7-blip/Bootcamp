@@ -156,3 +156,17 @@ th {
   background-color: #f44336;
   color: white; font:16px "Roboto Mono", monospace; 
 }
+
+
+@media (max-width: 780px) {
+  #my-container{max-width:100%; padding: 10px 25px}
+  #my-container h1,#my-container h2{font-size:22px}
+
+ form {
+    display: inline-block;
+    margin: 30px 0; text-align: center;}
+
+.textbox2, .course-dropdown{width:100%; margin: 10px 0; text-align: center;}
+th, td{font-size:18px}
+
+}
